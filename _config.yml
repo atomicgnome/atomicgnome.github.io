@@ -55,4 +55,4 @@ plugins:
 #   - vendor/ruby/
 
 collections:
- -people
+ - people
