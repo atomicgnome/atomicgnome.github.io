@@ -11,6 +11,7 @@ title: BOOOOBS!
 <body>
 	{% for people in site.people %}
 	<h2>{{ people.name }} - {{ people.likes }} </h2>
+	<p>{{ staff_member.content | markdownify }}</p>
 	{% endfor %}>
 </body>
 </html>
